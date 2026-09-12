@@ -11,7 +11,7 @@ const Navbar = () => {
         <div className="flex items-center gap-2">
           <div className="w-[137px] h-[32px] flex items-center justify-center">
             
-            <img src={myImage}/>
+            <img src={myImage} alt='logo image of the devstrack'/>
           </div>
 
            
