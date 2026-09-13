@@ -9,36 +9,36 @@ const Footer = () => {
         <div className="grid grid-cols-1 gap-10 sm:grid-cols-2 lg:grid-cols-5">
 
           {/* Brand */}
-          <div className="lg:col-span-2">
+          <div className="lg:col-span-2 ">
             <div className="flex items-center gap-2">
-              <img src={myImage} alt="logo image of the dec Stack"/>
+              <img src={myImage} alt="logo image of the dec Stack" className="m-auto md:m-0"/>
                 
             </div>
 
-            <p className="mt-5 max-w-sm text-sm leading-6">
+            <p className="mt-5 text-center md:text-left  text-sm leading-6">
               Curated tools, technologies, and resources for developers building
 modern software.
             </p>
 
             {/* Social Links */}
-            <div className="mt-6 flex gap-4">
+            <div className="mt-6 flex gap-4 justify-center md:justify-start">
               <a
                 href="#"
-                className="transition hover:text-white"
+                className="transition hover:text-slate-500"
               >
                 GitHub
               </a>
 
               <a
                 href="#"
-                className="transition hover:text-white"
+                className="transition hover:text-slate-500"
               >
                 Twitter
               </a>
 
               <a
                 href="#"
-                className="transition hover:text-white"
+                className="transition hover:text-slate-500"
               >
                 LinkedIn
               </a>
@@ -46,7 +46,7 @@ modern software.
           </div>
 
           {/* Product */}
-          <div>
+          <div className="hidden md:block">
             <h3 className="font-semibold text-slate-700">
               Product
             </h3>
@@ -75,7 +75,7 @@ modern software.
           </div>
 
           {/* Company */}
-          <div>
+          <div className="hidden md:block">
             <h3 className="font-semibold text-slate-600">
               Company
             </h3>
@@ -104,7 +104,7 @@ modern software.
           </div>
 
           {/* Legal */}
-          <div>
+          <div className="hidden md:block">
             <h3 className="font-semibold text-slate-600">
               Legal
             </h3>
@@ -129,18 +129,18 @@ modern software.
         </div>
 
         {/* Bottom Bar */}
-        <div className="mt-12 border-t border-slate-800 pt-6">
-          <div className="flex flex-col gap-4 text-sm sm:flex-row sm:items-center sm:justify-between">
+        <div className="mt-12 pt-3">
+          <div className="flex flex-cols-2 gap-4 text-sm justify-between">
             <p>
               © 2026 Dev Stack. All rights reserved.
             </p>
 
             <div className="flex gap-6">
-              <a href="#" className="hover:text-white">
+              <a href="#" className="hover:text-slate-500">
                 Privacy
               </a>
 
-              <a href="#" className="hover:text-white">
+              <a href="#" className="hover:text-slate-500">
                 Terms
               </a>
             </div>
