@@ -1,3 +1,40 @@
+  # 🚀 Dev Stack Builder
+
+A modern and responsive web application for exploring development technologies and building  personalized developer stack. Browse different technologies, view their details, and added favorite tools to your stack.
+
+## 🛠️ Technologies Used
+
+* React.js
+* TypeScript
+* Tailwind CSS
+* Vite
+* React Toastify
+* JSON
+* HTML5
+* CSS3
+
+
+
+### 1. 🔍 Explore Technologies
+
+Browse different development technologies with their category, difficulty level, rating, description, and technology icon.
+
+### 2. 🧰 Build Your Own Stack
+
+Add your favorite technologies to your personal stack. Duplicate technologies cannot be added, and you can remove individual technologies or clear the entire stack.
+
+### 3. 📱 Responsive Design
+
+The website is fully responsive and provides a smooth experience across mobile, tablet, and desktop devices.
+
+## 📌 Project Overview
+
+Dev Stack Builder helps developers discover useful technologies and organize their preferred development tools in one place. The project uses reusable React components, JSON data, React state management, and responsive Tailwind CSS styling.
+
+  
+  
+  //Answer
+  
   1. jsx stands for javascript extension ,its a syntax by which we can write like HTML  on Js or Ts ,
 
   2. props passed data from parent component to child component and state is managed data inside won component.
