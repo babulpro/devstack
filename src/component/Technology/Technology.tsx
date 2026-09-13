@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import type { Technology } from '../../types/technology'
 import TechnologyCard from './TechnologyCard'
+import {toast} from "react-toastify"
 
 interface Props {
   data: Technology[]
@@ -13,16 +14,29 @@ export default function Technologies({ data }: Props) {
     setStack((prev) =>
       prev.some((t) => t.id === tech.id) ? prev : [...prev, tech]
     )
+    toast.success(`${tech.name} added to your stack!`, {
+      icon: () => <img src={tech.icon} alt="" className="h-5 w-5" />,
+    })
   }
 
+  
+
   const handleRemove = (id: string) => {
+    const tech = stack.find((t) => t.id === id)
     setStack((prev) => prev.filter((t) => t.id !== id))
+
+    if (tech) {
+      toast.warn(`${tech.name} removed from your stack`)
+    }
   }
 
   const handleClearAll = () => {
+    if (stack.length === 0) return
     setStack([])
+    toast.error('Stack cleared!')
   }
 
+  
   return (
     <section className="px-4 py-8 sm:p-8">
       <h2 className="text-3xl sm:text-5xl font-extrabold bg-gradient-to-r from-orange-500 via-pink-500 to-purple-600 bg-clip-text text-transparent mb-6 sm:mb-8 text-center sm:text-left">
