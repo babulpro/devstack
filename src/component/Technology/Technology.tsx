@@ -114,7 +114,7 @@ export default function Technologies({ data }: Props) {
                   onClick={handleClearAll}
                   className="mt-4 w-full rounded-lg border border-rose-200 bg-rose-50 px-3 py-2 text-sm font-semibold text-rose-600 transition hover:bg-rose-100"
                 >
-                  Clear All
+                  Remove All
                 </button>
               </>
             )}

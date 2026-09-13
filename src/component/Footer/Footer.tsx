@@ -53,19 +53,19 @@ modern software.
 
             <ul className="mt-5 space-y-3 text-sm">
               <li>
-                <a href="#" className="hover:text-white">
+                <a href="#" className="hover:text-slate-500">
                   Home
                 </a>
               </li>
 
               <li>
-                <a href="#" className="hover:text-white">
+                <a href="#" className="hover:text-slate-500">
                   Technologies
                 </a>
               </li>
 
               <li>
-                <a href="#" className="hover:text-white">
+                <a href="#" className="hover:text-slate-500">
                   Projects
                 </a>
               </li>
@@ -82,19 +82,19 @@ modern software.
 
             <ul className="mt-5 space-y-3 text-sm">
               <li>
-                <a href="#" className="hover:text-white">
+                <a href="#" className="hover:text-slate-500">
                   About
                 </a>
               </li>
 
               <li>
-                <a href="#" className="hover:text-white">
+                <a href="#" className="hover:text-slate-500">
                   Contact
                 </a>
               </li>
 
               <li>
-                <a href="#" className="hover:text-white">
+                <a href="#" className="hover:text-slate-500">
                   Careers
                 </a>
               </li>
@@ -111,13 +111,13 @@ modern software.
 
             <ul className="mt-5 space-y-3 text-sm">
               <li>
-                <a href="#" className="hover:text-white">
+                <a href="#" className="hover:text-slate-500">
                   Privacy Policy
                 </a>
               </li>
 
               <li>
-                <a href="#" className="hover:text-white">
+                <a href="#" className="hover:text-slate-500">
                   Terms Of Service
                 </a>
               </li>

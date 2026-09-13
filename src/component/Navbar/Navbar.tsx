@@ -43,7 +43,7 @@ const Navbar = () => {
         </div>
 
         {/* -------- DESKTOP: Nav links -------- */}
-        <div className="hidden md:flex flex-1 items-center justify-center gap-8 text-[#475569]">
+        <div className="hidden md:flex flex-1 items-center  justify-center gap-8 text-[#475569]">
           {navLinks.map((link) => (
             <a
               key={link.label}

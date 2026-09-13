@@ -52,7 +52,7 @@ const TechnologyCard = ({ technology, isAdded, onAdd }: TechnologyCardProps) => 
         </span>
         <span className="ml-auto text-xs sm:text-sm text-amber-500 font-medium ">
           <span className="mr-1 ">★</span>
-          {technology.rating}
+          <span className='md:text-slate-500'>{technology.rating}</span>
         </span>
       </div>
 
@@ -67,7 +67,7 @@ const TechnologyCard = ({ technology, isAdded, onAdd }: TechnologyCardProps) => 
               : 'bg-slate-950 hover:opacity-90'
           }`}
         >
-          {isAdded ? 'Added' : 'Add to Stack'}
+          {isAdded ? '✓ Added to Stack' : 'Add to Stack'}
         </button>
       </div>
     </div>

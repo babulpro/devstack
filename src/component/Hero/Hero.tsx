@@ -4,12 +4,12 @@ import myImage from '../../assets/banner-stack.png';
 const Hero = () => {
   return (
     <section className="bg-slate-50">
-      <div className="max-w-7xl mx-auto px-4 py-2 md:py-20 lg:py-24">
+      <div className="max-w-7xl mx-auto px-4 py-2 md:py-5 lg:py-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 items-center md:gap-12 gap-1">
 
           {/* Hero Content */}
           <div>
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight text-slate-900 text-center md:text-left">
+            <h1 className="text-4xl md:text-4xl lg:text-6xl font-bold leading-tight text-slate-900 text-center md:text-left">
               Build Your Ideal
             
             
@@ -20,13 +20,13 @@ const Hero = () => {
              
 
             <p className="mt-6 max-w-xl text-lg leading-8 text-slate-600 text-center md:text-left">
-              Explore frontend, backend, database, and tooling options,
-              compare them side by side, and put together the stack that fits your
+              Explore frontend, backend, database, and tooling options,<br/>
+              compare them side by side, and put together the stack that fits your<br/>
               next project.
             </p>
 
             {/* Buttons */}
-            <div className="mt-8 grid grid-cols-2 gap-4">
+            <div className="mt-8 grid grid-cols-2 gap-4 md:w-4/5">
               <button className="rounded-2xl bg-gradient-to-r from-[#f97316]   to-[#ec4899] px-6 py-3 font-semibold text-white transition hover:opacity-90">
                 Explore Technologies
               </button>
