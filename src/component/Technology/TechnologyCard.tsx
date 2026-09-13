@@ -11,27 +11,31 @@ const TechnologyCard = ({ technology, isAdded, onAdd }: TechnologyCardProps) => 
     <div className="rounded-2xl border border-slate-100 bg-white p-4 sm:p-6 shadow-sm">
       {/* Icon + Badge */}
       <div className="flex items-start justify-between gap-3">
-        <img
+        <div className='grid grid-cols-2 md:grid-cols-1 gap-3'>
+          <img
           src={technology.icon}
           alt={technology.name}
           className="h-10 w-10 sm:h-12 sm:w-12 object-contain"
         />
-
-        <span
-          className="rounded-full px-2.5 py-1 text-[10px] sm:text-xs font-medium whitespace-nowrap"
+          <h3 className=" text-lg sm:text-xl font-bold text-slate-900">
+        {technology.name}
+      </h3>
+        </div>
+        
+          {technology.badge!==""?(<span
+          className="rounded-full px-2.5 py-1 text-sm font-bold md:text-md font-medium whitespace-nowrap"
           style={{
             color: technology.color,
             backgroundColor: `${technology.color}1A`,
           }}
         >
           {technology.badge}
-        </span>
+        </span>):""}
+        
       </div>
 
       {/* Title */}
-      <h3 className="mt-4 sm:mt-5 text-lg sm:text-xl font-bold text-slate-900">
-        {technology.name}
-      </h3>
+      
 
       {/* Description */}
       <p className="mt-2 sm:mt-3 text-xs sm:text-sm leading-5 sm:leading-6 text-slate-500">
@@ -46,8 +50,8 @@ const TechnologyCard = ({ technology, isAdded, onAdd }: TechnologyCardProps) => 
         <span className="text-[11px] sm:text-sm text-slate-500">
           {technology.difficulty}
         </span>
-        <span className="ml-auto text-xs sm:text-sm font-medium text-slate-700">
-          <span className="mr-1 text-amber-500">★</span>
+        <span className="ml-auto text-xs sm:text-sm text-amber-500 font-medium ">
+          <span className="mr-1 ">★</span>
           {technology.rating}
         </span>
       </div>

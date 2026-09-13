@@ -4,28 +4,29 @@ import myImage from '../../assets/banner-stack.png';
 const Hero = () => {
   return (
     <section className="bg-slate-50">
-      <div className="max-w-7xl mx-auto px-4 py-16 md:py-20 lg:py-24">
-        <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-12">
+      <div className="max-w-7xl mx-auto px-4 py-2 md:py-20 lg:py-24">
+        <div className="grid grid-cols-1 lg:grid-cols-2 items-center md:gap-12 gap-1">
 
           {/* Hero Content */}
           <div>
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight text-slate-900">
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight text-slate-900 text-center md:text-left">
               Build Your Ideal
-            </h1>
             
-              <h2 className="text-6xl font-extrabold bg-gradient-to-r from-[#ff5722] via-[#d81b7e] to-[#7c3aed] bg-clip-text text-transparent">
+            
+              <span className="block  font-extrabold bg-gradient-to-r from-[#ff5722] via-[#d81b7e] to-[#7c3aed] bg-clip-text text-transparent">
                 Development Stack
-              </h2>
+              </span>
+              </h1>
              
 
-            <p className="mt-6 max-w-xl text-lg leading-8 text-slate-600">
+            <p className="mt-6 max-w-xl text-lg leading-8 text-slate-600 text-center md:text-left">
               Explore frontend, backend, database, and tooling options,
               compare them side by side, and put together the stack that fits your
               next project.
             </p>
 
             {/* Buttons */}
-            <div className="mt-8 flex flex-wrap gap-4">
+            <div className="mt-8 grid grid-cols-2 gap-4">
               <button className="rounded-2xl bg-gradient-to-r from-[#f97316]   to-[#ec4899] px-6 py-3 font-semibold text-white transition hover:opacity-90">
                 Explore Technologies
               </button>
@@ -37,11 +38,12 @@ const Hero = () => {
           </div>
 
           {/* Hero Image */}
-          <div className="flex justify-center lg:justify-end">
+          <div className="flex justify-center lg:justify-end ">
             <img
               src={myImage}
               alt="Developer technology illustration"
-              className="w-full max-w-lg"
+              className="w-full "
+
             />
           </div>
 
