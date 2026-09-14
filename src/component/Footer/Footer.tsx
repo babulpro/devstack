@@ -21,7 +21,7 @@ modern software.
             </p>
 
             {/* Social Links */}
-            <div className="mt-6 flex gap-4 text-[slate-900 ]justify-center md:justify-start text-slate-600">
+            <div className="mt-6 flex gap-4 text-slate-900 justify-center md:justify-start text-slate-600">
               <a
                 href="#"
                 className="transition hover:text-slate-500"
