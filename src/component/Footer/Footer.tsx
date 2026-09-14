@@ -15,13 +15,13 @@ const Footer = () => {
                 
             </div>
 
-            <p className="mt-5 text-center md:text-left  text-sm leading-6">
+            <p className="mt-5 text-center md:text-left  text-sm leading-6 text-slate-600">
               Curated tools, technologies, and resources for developers building
 modern software.
             </p>
 
             {/* Social Links */}
-            <div className="mt-6 flex gap-4 text-slate-900 justify-center md:justify-start">
+            <div className="mt-6 flex gap-4 text-[slate-900 ]justify-center md:justify-start text-slate-600">
               <a
                 href="#"
                 className="transition hover:text-slate-500"
@@ -51,7 +51,7 @@ modern software.
               Product
             </h3>
 
-            <ul className="mt-5 space-y-3 text-sm">
+            <ul className="mt-5 space-y-3 text-sm text-slate-600">
               <li>
                 <a href="#" className="hover:text-slate-500">
                   Home
@@ -80,7 +80,7 @@ modern software.
               Company
             </h3>
 
-            <ul className="mt-5 space-y-3 text-sm">
+            <ul className="mt-5 space-y-3 text-sm text-slate-600">
               <li>
                 <a href="#" className="hover:text-slate-500">
                   About
@@ -109,9 +109,9 @@ modern software.
               Legal
             </h3>
 
-            <ul className="mt-5 space-y-3 text-sm">
+            <ul className="mt-5 space-y-3 text-sm text-slate-600">
               <li>
-                <a href="#" className="hover:text-slate-500">
+                <a href="#" className="hover:text-slate-500 ">
                   Privacy Policy
                 </a>
               </li>
@@ -129,7 +129,7 @@ modern software.
         </div>
 
         {/* Bottom Bar */}
-        <div className="mt-12 pt-3">
+        <div className="mt-12 pt-3 text-slate-600">
           <div className="flex flex-cols-2 gap-4 text-sm justify-between">
             <p>
               © 2026 Dev Stack. All rights reserved.
